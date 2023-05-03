@@ -997,6 +997,104 @@
     }
 }
 
+@media screen and (max-width: 350px) {
+    .header {
+        padding-left: 20px;
+    }
+
+    .intro {
+        flex-wrap: wrap;
+    }
+
+    .intro__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .intro__link {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .intro__text {
+        text-align: center;
+    }
+
+    .section-heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe__text {
+        margin-bottom: 20px;
+    }
+
+    .service__heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services__lead {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .team__heder {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .team__members {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .members {
+        justify-content: center;
+    }
+
+    .action-button_white {
+        margin-bottom: 60px;
+    }
+
+    .subscribe {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 54px;
+        margin-top: 40px;
+    }
+
+    .feedback {
+        text-align: center;
+    }
+
+    .contacts__line {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__content {
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
 /*Popup-menu*/
 
 .popup-menu__button {
