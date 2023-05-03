@@ -521,7 +521,6 @@
 }
 
 .subscribe__text {
-    margin: 0;
     letter-spacing: 1px;
     font-size: 16px;
     line-height: 28px;
@@ -803,6 +802,7 @@
     }
 
     .feedback-contacts {
+        display: flex;
         flex-wrap: wrap;
         padding-left: initial;
         padding-right: initial;
@@ -884,8 +884,6 @@
         width: 100%;
         max-width: 100%;
     }
-
-    .contacts {}
 }
 
 @media screen and (max-width: 760px) {
@@ -985,6 +983,16 @@
     }
 
     .feedback {
+        text-align: center;
+    }
+
+    .contacts__line {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__content {
+        justify-content: center;
         text-align: center;
     }
 }
