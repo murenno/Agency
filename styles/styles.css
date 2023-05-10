@@ -900,12 +900,14 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .header {
         padding-left: 20px;
     }
 
     .intro {
+        text-align: center;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
@@ -1110,7 +1112,7 @@
 }
 
 /*Скрыть не нужные элементы*/
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .popup-menu__button {
         display: block;
     }
@@ -1153,7 +1155,7 @@
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     .popup-menu__list {
         visibility: hidden;
     }
